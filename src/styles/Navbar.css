@@ -1,0 +1,148 @@
+/* Side Navbar */
+.navbar {
+    background-color: var(--section-bgd);
+    /* background-color: var(--nav-bgd); */
+    color: var(--white);
+    /* width: 300px; */
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    transition: all .5s ease-in-out;
+    z-index: 99999;
+}
+
+.navbar.active {
+    left: 0;
+    opacity: 1;
+}
+
+.navbar::-webkit-scrollbar {
+    scroll-margin: 0;
+}
+
+.navbar-container {
+    padding: 1rem 1.5rem;
+}
+
+.top-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.img__cover{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic-small {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 8px solid var(--nav-deep-blue);
+}
+
+.profile-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: var(--white);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-links li, .mid-details li {
+    list-style: none;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+    margin: 0 .3rem;
+    padding: .7rem;
+    background-color: var(--nav-deep-blue);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: var(--nav-blue);
+}
+
+.mid-details {
+    padding: 1rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.mid-link{
+    font-family: "Open Sans", sans-serif;
+}
+
+.mid-links {
+    display: flex;
+    align-items: center;
+    color: var(--nav-grey);
+    cursor: pointer;
+    text-decoration: none;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.mid-links.active {
+    color: var(--nav-blue);
+}
+
+.mid-links:hover {
+    color: var(--white);
+}
+
+.mid-links:hover .mid-icon { color: var(--nav-blue); }
+
+.mid-icon {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: var(--white);
+    font-size: 80%;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* @media screen and (max-width: 500px) {
+    .profile-pic-small {
+        height: auto;
+        width: 100px;
+    }
+} */

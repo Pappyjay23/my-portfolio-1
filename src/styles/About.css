@@ -1,0 +1,82 @@
+.heading {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 3rem;
+}
+
+.heading-sub-text {
+    color: var(--soft-white);
+}
+
+.heading-text {
+    color: var(--soft-white);
+    font-size: 2.5rem;
+}
+
+.about-content {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.split-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.about-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about-img img {
+    width: auto;
+    height: 300px;
+    border-radius: 5px;
+    filter: brightness(100%);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.about-img img:hover {
+    /* filter: brightness(100%); */
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    .split-about {
+        display: grid;
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-content {
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-img img {
+        width: auto;
+        height: 200px;
+    }
+
+    .heading-sub-text {
+        font-size: 90%;
+    }
+    
+    .heading-text {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        font-size: 1rem;
+    }
+}

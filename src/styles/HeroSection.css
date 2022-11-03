@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+/* Hero Section */
+.hero-section {
+  /* background-color: var(--section-bgd); */
+  background-image: url('../images/hero-bg-2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: var(--white);
+  height: 100vh;
+  padding: 3rem 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.hero-overlay{
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  filter: opacity(.8);
+}
+
+.hero-content {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.hero-intro {
+  font-family: "Source Sans Pro", sans-serif;
+  /* font-family: 'Poppins', "Roboto", sans-serif ; */
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+  color: var(--nav-blue);
+}
+
+.hero-desc,
+.hero-desc-sub {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+
+.hero-contact {
+  text-decoration: none;
+  /* color: var(--white); */
+  color: var(--nav-blue);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 1rem 2rem;
+  border: 1px solid var(--nav-blue);
+  background-color: transparent;
+  width: fit-content;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s transform ease-in-out;
+  will-change: transform;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hero-contact::after {
+  background-color: var(--nav-blue);
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0);
+  transform-origin: top right;
+  transition: 0.8s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.hero-contact:hover::after {
+  transform: translate(0, 0);
+}
+
+.hero-contact:hover {
+  color: var(--white);
+  will-change: transform;
+}
+
+.hero-content .hero-desc {
+  color: #fff;
+  overflow: hidden;
+  line-height: 2;
+  letter-spacing: 0.15em;
+}
+
+.menu-icon,
+.to-top-icon {
+  padding: 0.7rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--nav-blue);
+  border-radius: 50%;
+  transition: all 0.4s ease;
+  z-index: 99999999;
+  background-color: var(--nav-blue);
+}
+
+.menu-icon {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.menu-icon:hover {
+  background-color: var(--nav-blue-shade);
+}
+
+.cv-icon {
+  margin-left: 0.5rem;
+}
+
+.to-top-icon {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.to-top-icon:hover {
+  background-color: var(--nav-blue-shade);
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .hero-intro {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-section {
+    padding: 3rem 1rem;
+    white-space: normal;
+  }
+
+  .hero-intro {
+    font-size: 4rem;
+  }
+
+  .hero-desc,
+  .hero-desc-sub {
+    font-size: 1rem;
+  }
+
+  .hero-contact {
+    font-size: 80%;
+  }
+
+  .menu-icon,
+  .to-top-icon {
+    font-size: 1rem;
+    padding: 0.6rem;
+    background-color: var(--nav-blue);
+  }
+}

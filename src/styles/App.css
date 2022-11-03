@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;500&family=Poppins:wght@300;400;600&family=Quicksand:wght@400;600&family=Roboto+Condensed:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+:root {
+  --nav-grey: #a8a9b4;
+  --nav-deep-grey: #94959b;
+  --nav-blue: #149ddd;
+  --nav-blue-shade: #0e668f;
+  --card-blue-shade: #112240;
+  --nav-deep-blue: #2c2f3f;
+  --nav-bgd: #040b14;
+  --white: #fff;
+  --soft-white: #ccd6f6;
+  --navy: #0a192f;
+  --light-blue: rgb(156, 183, 255);
+  --section-bgd: #00021a;
+}
+
+/* General styles */
+.about,
+.skills,
+.services,
+.works,
+.contact {
+  background-color: var(--section-bgd);
+  color: var(--nav-grey);
+  width: 100%;
+}
+
+.container {
+  padding: 4rem;
+}
+
+.loader {
+  background-color: #00021a;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loader-icon {
+  color: #fff;
+  height: 100;
+  width: 50;
+}
+
+/*  Load animations */
+.svg-wrapper {
+  position: relative;
+}
+
+@keyframes pageLoad {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-width: 2px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
+}
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #149ddd;
+  /* stroke: #19f6e8; */
+  border: 5px solid black;
+  animation: 3s ease 0s 1 pageLoad;
+}
+.text {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 100%;
+  transform: translate(-50% -50%);
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+  }
+  .container {
+    padding: 1rem;
+  }
+}
