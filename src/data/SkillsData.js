@@ -6,6 +6,7 @@ import {
 	FaNpm,
 	FaReact,
 	FaSass,
+	FaYarn,
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -67,6 +68,10 @@ export const SkillsData = [
 	{
 		name: "Npm",
 		icon: <FaNpm />,
+	},
+	{
+		name: "Yarn",
+		icon: <FaYarn />,
 	},
 	{
 		name: "Photoshop",

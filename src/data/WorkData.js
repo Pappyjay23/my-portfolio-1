@@ -42,6 +42,13 @@ export const WorkData = [
 		site: "//onixx-digital.netlify.app/",
 	},
 	{
+		title: "Digitaly",
+		desc: "A digital marketing agency landing page",
+		tech: ["React.js", "Vite.js", 'TailwindCss', 'Framer Motion'],
+		gitlink: "//github.com/Pappyjay23/Digitaly",
+		site: "//digitaly.netlify.app",
+	},
+	{
 		title: "Megapod",
 		desc: "A site hosting podcasts",
 		tech: ["React.js", "Styled-Components"],
