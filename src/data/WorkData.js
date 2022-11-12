@@ -2,7 +2,7 @@ export const WorkData = [
 	{
 		title: "Netflix Clone",
 		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: ["React.js", "Firebase", "TailwindCss", 'APIs'],
+		tech: ["React.js", "Firebase", "TailwindCss", 'APIs', 'Axios'],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
 		site: "//netflix-vp.netlify.app/",
 	},
@@ -16,9 +16,16 @@ export const WorkData = [
 	{
 		title: "Crypto Price Tracker",
 		desc: "A web app for tracking live crypto currency prices",
-		tech: ["React.js", "Css", "APIs"],
+		tech: ["React.js", "Css", "APIs", 'Axios'],
 		gitlink: "//github.com/Pappyjay23/crypto-tracker",
 		site: "//mini-crypto-price-tracker.netlify.app",
+	},
+	{
+		title: "Digitaly",
+		desc: "A digital marketing agency landing page",
+		tech: ["React.js", "Vite.js", 'TailwindCss', 'Framer Motion'],
+		gitlink: "//github.com/Pappyjay23/Digitaly",
+		site: "//digitaly.netlify.app",
 	},
 	{
 		title: "Budget App",
@@ -40,13 +47,6 @@ export const WorkData = [
 		tech: ["React.js", "Styled-Components"],
 		gitlink: "//www.github.com/Pappyjay23/megapod",
 		site: "//onixx-digital.netlify.app/",
-	},
-	{
-		title: "Digitaly",
-		desc: "A digital marketing agency landing page",
-		tech: ["React.js", "Vite.js", 'TailwindCss', 'Framer Motion'],
-		gitlink: "//github.com/Pappyjay23/Digitaly",
-		site: "//digitaly.netlify.app",
 	},
 	{
 		title: "Megapod",

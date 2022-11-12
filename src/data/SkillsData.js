@@ -7,10 +7,20 @@ import {
 	FaReact,
 	FaSass,
 	FaYarn,
+	FaFigma,
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
-import { SiAdobephotoshop, SiJquery, SiTailwindcss, SiNextdotjs, SiTypescript, SiFirebase } from "react-icons/si";
+import {
+	SiAdobephotoshop,
+	SiJquery,
+	SiTailwindcss,
+	SiNextdotjs,
+	SiTypescript,
+	SiFirebase,
+	SiStyledcomponents,
+	SiFramer
+} from "react-icons/si";
 
 export const SkillsData = [
 	{
@@ -26,40 +36,48 @@ export const SkillsData = [
 		icon: <DiJavascript1 />,
 	},
 	{
-        name: "TypeScript",
+		name: "TypeScript",
 		icon: <SiTypescript />,
 	},
 	{
-        name: "jQuery",
+		name: "jQuery",
 		icon: <SiJquery />,
 	},
 	{
-        name: "React Js",
+		name: "React Js",
 		icon: <FaReact />,
 	},
 	{
-        name: "Next Js",
+		name: "Next Js",
 		icon: <SiNextdotjs />,
 	},
 	{
-        name: "Firebase",
+		name: "Firebase",
 		icon: <SiFirebase />,
 	},
 	{
-        name: "JSON",
+		name: "JSON",
 		icon: <VscJson />,
 	},
-    {
-        name: "Bootstrap",
-        icon: <FaBootstrap />,
-    },
-    {
-        name: "Tailwind",
-        icon: <SiTailwindcss />,
-    },
+	{
+		name: "Bootstrap",
+		icon: <FaBootstrap />,
+	},
+	{
+		name: "Tailwind",
+		icon: <SiTailwindcss />,
+	},
 	{
 		name: "Sass",
 		icon: <FaSass />,
+	},
+	{
+		name: "Styled Components",
+		icon: <SiStyledcomponents />,
+	},
+	{
+		name: "Framer Motion",
+		icon: <SiFramer />,
 	},
 	{
 		name: "Git",
@@ -74,8 +92,11 @@ export const SkillsData = [
 		icon: <FaYarn />,
 	},
 	{
+		name: "Figma",
+		icon: <FaFigma />,
+	},
+	{
 		name: "Photoshop",
 		icon: <SiAdobephotoshop />,
 	},
 ];
-
