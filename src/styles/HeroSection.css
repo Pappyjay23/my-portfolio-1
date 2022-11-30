@@ -48,7 +48,7 @@
 .hero-contact {
 	text-decoration: none;
 	color: var(--nav-blue);
-	font-family: "Lato", sans-serif;
+  font-size: 80%;
 	font-weight: 500;
 	letter-spacing: 3px;
 	padding: 1rem 2rem;
