@@ -1,152 +1,146 @@
 .works-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-    row-gap: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
 }
 
 .work-link-group {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .works-container {
-    width: 100%;
+	width: 100%;
 }
 
 .works-card {
-    background-color: var(--card-blue-shade);
-    color: var(--nav-grey);
-    border-radius: 5px;
-    position: relative;
-    padding: 1rem 2rem;
-    width: 90%;
-    margin: 0 auto;
-    height: 300px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
 }
 
 .works-card:hover {
-    transform: translateY(-7px);
+	transform: translateY(-7px);
 }
 
 .works-card:hover .work-title {
-    color: var(--nav-blue);
+	color: var(--nav-blue);
 }
 
 .top-work {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.top-work .right {
+	display: flex;
 }
 
 .mid-work {
-    margin-bottom: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .work-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    word-spacing: 5px;
-    margin-bottom: .5rem;
+	font-size: 1.3rem;
+	font-weight: 700;
+	word-spacing: 5px;
+	margin-bottom: 0.5rem;
 }
 
 .work-desc {
-    font-size: 90%;
+	font-size: 70%;
 }
 
 .work-folder {
-    font-size: 2.2rem;
-    color: var(--nav-blue);
+	font-size: 2rem;
+	color: var(--nav-blue);
 }
 
-.work-git{
-    font-size: 1.3rem;
+.work-git,
+.work-link {
+	color: var(--nav-grey);
+	margin: 0 0.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
 }
-
-.work-link{
-    font-size: 1.5rem;
-}
-
-.work-git, .work-link {
-    color: var(--nav-grey);
-    margin: 0 .5rem;
-    transition: all 0.3s ease;
-}
-.work-git:hover, .work-link:hover{
-    color: var(--nav-blue);
+.work-git:hover,
+.work-link:hover {
+	color: var(--nav-blue);
 }
 
 .bottom-work {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
 }
 
 .bottom-work small {
-    margin: 0 .5rem;
-    font-family: monospace;
-    font-size: 1em;
+	margin: 0 0.5rem;
+	font-size: 60%;
 }
 
 /* Media Queries */
-@media screen and (max-width: 1000px) {
-    .works-box {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 @media screen and (max-width: 750px) {
-    .works-box {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
 
 @media screen and (max-width: 550px) {
-    .works-card {
-        height: 300px;
-        width: 90%;
-        margin: 0 auto;
-    }
+	.work-desc {
+		font-size: 60%;
+	}
 
-    .work-desc {
-        font-size: 60%;
-    }
-    
-    .work-folder {
-        font-size: 1.5rem;
-        color: var(--nav-blue);
-    }
-    
-    .work-git{
-        font-size: 1rem;
-    }
-    
-    .work-link{
-        font-size: 1.2rem;
-    }
+	.work-folder {
+		font-size: 1.5rem;
+	}
 
-    .work-title {
-        font-size: 1.3rem;
-    }
+	.work-git,
+	.work-link {
+		font-size: 1.2rem;
+	}
 
-    .bottom-work small {
-        font-size: .7em;
-    }
+	.work-title {
+		font-size: 1.2rem;
+	}
+
+	.bottom-work small {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.works-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
 }

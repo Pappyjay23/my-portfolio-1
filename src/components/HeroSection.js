@@ -93,7 +93,7 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					Peace <br /> Jinadu-Paul.
+					<span>Peace</span> <span>Jinadu-Paul.</span>
 				</p>
 				<p className='hero-desc'>
 					I'm a <span className='hero-desc-sub'>Web Developer.</span>

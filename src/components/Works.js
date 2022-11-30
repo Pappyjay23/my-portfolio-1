@@ -33,7 +33,6 @@ const Works = () => {
                                         <div className="works-container">
                                             <div className="top-work">
                                                 <FiFolder className='work-folder' />
-                                                <p></p>
                                                 <div className="right">
                                                     <Link className='work-git' to={w.gitlink} target='_blank'><FiGithub /></Link>
                                                     <Link className='work-link' to={w.site} target='_blank'><IoOpenOutline /></Link>

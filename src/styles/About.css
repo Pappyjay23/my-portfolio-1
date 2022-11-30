@@ -15,7 +15,7 @@
 .about-content {
     font-family: "Poppins", sans-serif;
     line-height: 1.7;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .split-about {
@@ -42,7 +42,6 @@
 }
 
 .about-img img:hover {
-    /* filter: brightness(100%); */
     transform: scale(1.1);
 }
 
@@ -77,6 +76,6 @@
     }
 
     .about-content {
-        font-size: 1rem;
+        font-size: .8rem;
     }
 }

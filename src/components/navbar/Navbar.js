@@ -71,8 +71,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<FaHome className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
-								Home{" "}
+								Home
 							</li>
 						</Link>
 						<Link
@@ -85,8 +84,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<FiUser className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
-								About{" "}
+								About
 							</li>
 						</Link>
 						<Link
@@ -99,7 +97,6 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<FaLaptop className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
 								Skills
 							</li>
 						</Link>
@@ -113,8 +110,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiServer className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
-								Services{" "}
+								Services
 							</li>
 						</Link>
 						<Link
@@ -127,8 +123,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiBookContent className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
-								Works{" "}
+								Works
 							</li>
 						</Link>
 						<Link
@@ -141,9 +136,8 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiEnvelope className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								{" "}
 								Contact
-							</li>{" "}
+							</li>
 						</Link>
 					</ul>
 					<div className='copy'>

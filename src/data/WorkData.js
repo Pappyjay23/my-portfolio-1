@@ -21,13 +21,6 @@ export const WorkData = [
 		site: "//mini-crypto-price-tracker.netlify.app",
 	},
 	{
-		title: "Digitaly",
-		desc: "A digital marketing agency landing page",
-		tech: ["React.js", "Vite.js", 'TailwindCss', 'Framer Motion'],
-		gitlink: "//github.com/Pappyjay23/Digitaly",
-		site: "//digitaly.netlify.app",
-	},
-	{
 		title: "Budget App",
 		desc: "A budget web app",
 		tech: ["React.js", "Css"],

@@ -7,6 +7,24 @@
   font-family: "Poppins", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--section-bgd);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--nav-blue);
+  border-radius: 100vh;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--nav-blue-shade);
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -39,6 +57,8 @@ html, body {
 
 .container {
   padding: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .loader {
