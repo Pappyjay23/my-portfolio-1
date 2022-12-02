@@ -33,7 +33,7 @@ const HeroSection = ({ nav, handleNav }) => {
 			opacity: 1,
 			y: 0,
 			transition: {
-				duration: 2,
+				duration: 1.4,
 			},
 		},
 	};
@@ -47,7 +47,7 @@ const HeroSection = ({ nav, handleNav }) => {
 			opacity: 1,
 			x: 0,
 			transition: {
-				duration: 2,
+				duration: 1.4,
 			},
 		},
 	};

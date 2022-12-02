@@ -7,7 +7,7 @@ const Contact = () => {
     const fade = {
         opacity: 1,
         transition:{
-            duration: 2
+            duration: 1.5
         }
     }
 
@@ -15,7 +15,7 @@ const Contact = () => {
         opacity: 1,
         y: 0,
         transition:{
-            duration: 2
+            duration: 1.5
         }
     }
 

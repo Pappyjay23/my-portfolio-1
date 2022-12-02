@@ -101,12 +101,10 @@ html, body {
   stroke-width: 8px;
   fill: transparent;
   stroke: #149ddd;
-  /* stroke: #19f6e8; */
   border: 5px solid black;
   animation: 3s ease 0s 1 pageLoad;
 }
 .text {
-  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 32px;
@@ -127,7 +125,6 @@ html, body {
 
 @media screen and (max-width: 500px) {
   .text {
-    font-family: "Roboto Condensed", sans-serif;
     font-size: 13px;
     position: absolute;
     left: 40px;
