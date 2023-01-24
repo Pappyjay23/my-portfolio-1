@@ -34,7 +34,7 @@ const Works = () => {
 						{WorkData.map((w, index) => {
 							return (
 								<div key={index}>
-									<div className='work-link-group'>
+									<Link to={w.site} target='_blank' className='work-link-group'>
 										<div className='works-card'>
 											<div className='works-container'>
 												<div className='top-work'>
@@ -65,7 +65,7 @@ const Works = () => {
 												</div>
 											</div>
 										</div>
-									</div>
+									</Link>
 								</div>
 							);
 						})}

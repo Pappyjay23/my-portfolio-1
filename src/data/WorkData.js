@@ -2,7 +2,7 @@ export const WorkData = [
 	{
 		title: "Netflix Clone",
 		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: ["React.js", "Firebase", "TailwindCss", 'APIs', 'Axios'],
+		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios"],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
 		site: "//netflix-vp.netlify.app/",
 	},
@@ -16,7 +16,7 @@ export const WorkData = [
 	{
 		title: "Crypto Price Tracker",
 		desc: "A web app for tracking live crypto currency prices",
-		tech: ["React.js", "Css", "APIs", 'Axios'],
+		tech: ["React.js", "Css", "APIs", "Axios"],
 		gitlink: "//github.com/Pappyjay23/crypto-tracker",
 		site: "//mini-crypto-price-tracker.netlify.app",
 	},
@@ -30,7 +30,7 @@ export const WorkData = [
 	{
 		title: "Todo App",
 		desc: "A todo list web app",
-		tech: ["React.js", "Css"],
+		tech: ["React.js", "Css", "PWAs"],
 		gitlink: "//www.github.com/Pappyjay23/todo-list",
 		site: "//todo-list-v0.netlify.app",
 	},
