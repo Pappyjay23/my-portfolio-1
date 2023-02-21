@@ -7,13 +7,6 @@ export const WorkData = [
 		site: "//netflix-vp.netlify.app/",
 	},
 	{
-		title: "Instablog",
-		desc: "A blog website where you can post your ideas and view those of others",
-		tech: ["React.js", "Firebase"],
-		gitlink: "//www.github.com/Pappyjay23/instablog",
-		site: "//instablog-v1.netlify.app/",
-	},
-	{
 		title: "Crypto Price Tracker",
 		desc: "A web app for tracking live crypto currency prices",
 		tech: ["React.js", "Css", "APIs", "Axios"],
@@ -21,11 +14,25 @@ export const WorkData = [
 		site: "//mini-crypto-price-tracker.netlify.app",
 	},
 	{
+		title: "The Movie Hub",
+		desc: "A movie app for discovering new movies",
+		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
+		gitlink: "//github.com/Pappyjay23/the-movie-hub",
+		site: "//the-movie-hub-v1.netlify.app",
+	},
+	{
 		title: "Budget App",
 		desc: "A budget web app",
 		tech: ["React.js", "Css"],
 		gitlink: "//www.github.com/Pappyjay23/budget-app",
 		site: "//budget-app-react-0.netlify.app",
+	},
+	{
+		title: "Instablog",
+		desc: "A blog website where you can post your ideas and view those of others",
+		tech: ["React.js", "Firebase"],
+		gitlink: "//www.github.com/Pappyjay23/instablog",
+		site: "//instablog-v1.netlify.app/",
 	},
 	{
 		title: "Todo App",
@@ -47,13 +54,6 @@ export const WorkData = [
 		tech: ["React.js", "Styled-Components"],
 		gitlink: "//www.github.com/Pappyjay23/megapod",
 		site: "//megapod-vp.netlify.app",
-	},
-	{
-		title: "Lavish",
-		desc: "A transaction site",
-		tech: ["React.js", "Css", "Framer Motion"],
-		gitlink: "//www.github.com/Pappyjay23/lavish-website",
-		site: "//lavish-website-v1.netlify.app",
 	},
 	{
 		title: "Lux Fitness",

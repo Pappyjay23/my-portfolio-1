@@ -19,7 +19,8 @@ import {
 	SiTypescript,
 	SiFirebase,
 	SiStyledcomponents,
-	SiFramer
+	SiFramer,
+	SiMaterialui
 } from "react-icons/si";
 
 export const SkillsData = [
@@ -66,6 +67,10 @@ export const SkillsData = [
 	{
 		name: "Tailwind",
 		icon: <SiTailwindcss />,
+	},
+	{
+		name: "Material UI",
+		icon: <SiMaterialui />,
 	},
 	{
 		name: "Sass",
