@@ -51,7 +51,7 @@ export const WorkData = [
 	{
 		title: "Megapod",
 		desc: "A site hosting podcasts",
-		tech: ["React.js", "Styled-Components"],
+		tech: ["React.js", "Styled-Components", 'Css'],
 		gitlink: "//www.github.com/Pappyjay23/megapod",
 		site: "//megapod-vp.netlify.app",
 	},
