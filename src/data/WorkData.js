@@ -2,7 +2,7 @@ export const WorkData = [
 	{
 		title: "Netflix Clone",
 		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios"],
+		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios", 'Context API'],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
 		site: "//netflix-vp.netlify.app/",
 	},

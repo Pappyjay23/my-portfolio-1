@@ -20,7 +20,8 @@ import {
 	SiFirebase,
 	SiStyledcomponents,
 	SiFramer,
-	SiMaterialui
+	SiMaterialui,
+	SiRedux
 } from "react-icons/si";
 
 export const SkillsData = [
@@ -51,6 +52,10 @@ export const SkillsData = [
 	{
 		name: "Next Js",
 		icon: <SiNextdotjs />,
+	},
+	{
+		name: "Redux",
+		icon: <SiRedux />,
 	},
 	{
 		name: "Firebase",
