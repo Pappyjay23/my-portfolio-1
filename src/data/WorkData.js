@@ -45,7 +45,7 @@ export const WorkData = [
 		title: "Onixx Digital",
 		desc: "A website for a company that helps with project and site management for the best optimization",
 		tech: ["React.js", "Styled-Components"],
-		gitlink: "//www.github.com/Pappyjay23/megapod",
+		gitlink: "//www.github.com/Pappyjay23/onix-digital",
 		site: "//onixx-digital.netlify.app/",
 	},
 	{
