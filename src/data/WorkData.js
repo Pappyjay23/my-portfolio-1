@@ -7,11 +7,11 @@ export const WorkData = [
 		site: "//netflix-vp.netlify.app/",
 	},
 	{
-		title: "Crypto Price Tracker",
-		desc: "A web app for tracking live crypto currency prices",
-		tech: ["React.js", "Css", "APIs", "Axios"],
-		gitlink: "//github.com/Pappyjay23/crypto-tracker",
-		site: "//mini-crypto-price-tracker.netlify.app",
+		title: "Digitaly",
+		desc: "A website for a digital marketing agency",
+		tech: ["React.js", "TailwindCss", "Framer Motion"],
+		gitlink: "//github.com/Pappyjay23/Digitaly",
+		site: "//digitaly.netlify.app/",
 	},
 	{
 		title: "The Movie Hub",
