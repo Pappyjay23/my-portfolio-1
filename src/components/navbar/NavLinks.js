@@ -10,8 +10,7 @@ const NavLinks = ({handleNav}) => {
         <li onClick={handleNav} ><Link  to="//twitter.com/_pappy_jay_" target='_blank' className='nav-link'><FaTwitter /></Link></li>
         <li onClick={handleNav} ><Link  to="//www.linkedin.com/in/pappyjay" target='_blank' className='nav-link'><FaLinkedin /></Link></li>
         <li onClick={handleNav} ><Link  to="//github.com/Pappyjay23" target='_blank' className='nav-link'><BsGithub /></Link></li>
-        {/* <li onClick={handleNav} ><Link  to="//www.instagram.com/pjp_concepts" target='_blank' className='nav-link'><FaInstagram /></Link></li> */}
-        <li onClick={handleNav} ><Link  to="//mailto:pjinadu02@gmail.com" target='_blank' className='nav-link'><BiEnvelope /></Link></li>
+        <li onClick={handleNav} ><a  href="mailto:pjinadu02@gmail.com" target='_blank' className='nav-link' rel="noreferrer"><BiEnvelope /></a></li>
   </ul>
   )
 };
