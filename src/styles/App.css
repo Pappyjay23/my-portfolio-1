@@ -7,25 +7,25 @@
   font-family: "Poppins", sans-serif;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 6px;
   height: 8px;
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: var(--section-bgd);
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: var(--nav-blue);
   border-radius: 100vh;
 }
 
-body::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: var(--nav-blue-shade);
 }
 
-html, body {
+body {
   overflow-x: hidden;
 }
 

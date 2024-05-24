@@ -33,12 +33,14 @@
 }
 
 .about-img img {
-    width: auto;
+    width: 300px;
     height: 300px;
     border-radius: 5px;
     filter: brightness(100%);
     cursor: pointer;
     transition: all 0.4s ease;
+    object-fit: cover;
+    object-position: top;
 }
 
 .about-img img:hover {
