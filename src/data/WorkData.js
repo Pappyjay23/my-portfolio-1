@@ -1,5 +1,12 @@
 export const WorkData = [
 	{
+		title: "Cerebrio",
+		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
+		tech: ["React.js", "Generative-AI", "APIs", "TailwindCss", 'Firebase', 'Context API'],
+		gitlink: "//github.com/Pappyjay23/Cerebrio-AI",
+		site: "//cerebrio-ai.vercel.app/",
+	},
+	{
 		title: "The Movie Hub",
 		desc: "A movie app for discovering new movies",
 		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
