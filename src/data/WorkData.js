@@ -25,7 +25,7 @@ export const WorkData = [
 		desc: "A movie app using the netflix UI with a touch of creativity.",
 		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios", 'Context API'],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
-		site: "https://netflix-vp.vercel.app",
+		site: "//netflix-vp.vercel.app",
 	},
 	{
 		title: "Budget App",
