@@ -3,7 +3,7 @@ export const WorkData = [
 		title: "Cerebrio",
 		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
 		tech: ["React.js", "Generative-AI", "APIs", "TailwindCss", 'Firebase', 'Context API'],
-		gitlink: "//github.com/Pappyjay23/Cerebrio-AI",
+		gitlink: "",
 		site: "//cerebrio-ai.vercel.app/",
 	},
 	{
@@ -25,7 +25,7 @@ export const WorkData = [
 		desc: "A movie app using the netflix UI with a touch of creativity.",
 		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios", 'Context API'],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
-		site: "//netflix-vp.netlify.app/",
+		site: "https://netflix-vp.vercel.app",
 	},
 	{
 		title: "Budget App",
@@ -33,20 +33,6 @@ export const WorkData = [
 		tech: ["React.js", "Css"],
 		gitlink: "//www.github.com/Pappyjay23/budget-app",
 		site: "//budget-app-react-0.netlify.app",
-	},
-	{
-		title: "Instablog",
-		desc: "A blog website where you can post your ideas and view those of others",
-		tech: ["React.js", "Firebase"],
-		gitlink: "//www.github.com/Pappyjay23/instablog",
-		site: "//instablog-v1.netlify.app/",
-	},
-	{
-		title: "Onixx Digital",
-		desc: "A website for a company that helps with project and site management for the best optimization",
-		tech: ["React.js", "Styled-Components"],
-		gitlink: "//www.github.com/Pappyjay23/onix-digital",
-		site: "//onixx-digital.netlify.app/",
 	},
 	{
 		title: "Digitaly",

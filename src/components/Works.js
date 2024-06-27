@@ -40,12 +40,12 @@ const Works = () => {
 												<div className='top-work'>
 													<FiFolder className='work-folder' />
 													<div className='right'>
-														<Link
+														{w.gitlink && <Link
 															className='work-git'
 															to={w.gitlink}
 															target='_blank'>
 															<FiGithub />
-														</Link>
+														</Link>}
 														<Link
 															className='work-link'
 															to={w.site}
