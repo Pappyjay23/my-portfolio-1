@@ -41,6 +41,7 @@
     transition: all 0.4s ease;
     object-fit: cover;
     object-position: top;
+    margin-bottom: 1rem;
 }
 
 .about-img img:hover {
@@ -66,7 +67,7 @@
 @media screen and (max-width: 500px) {
     .about-img img {
         width: auto;
-        height: 200px;
+        height: 250px;
     }
 
     .heading-sub-text {
