@@ -1,26 +1,22 @@
+import { DiJavascript1 } from "react-icons/di";
 import {
-	FaBootstrap,
 	FaCss3Alt,
+	FaFigma,
 	FaGithub,
 	FaHtml5,
-	FaNpm,
 	FaReact,
-	FaSass,
-	FaYarn,
-	FaFigma,
+	FaSass
 } from "react-icons/fa";
-import { DiJavascript1 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
+import { RiVuejsLine } from "react-icons/ri";
 import {
 	SiAdobephotoshop,
-	SiTailwindcss,
-	SiNextdotjs,
-	SiTypescript,
 	SiFirebase,
-	SiStyledcomponents,
 	SiFramer,
-	SiMaterialui,
-	SiRedux
+	SiNextdotjs,
+	SiRedux,
+	SiStyledcomponents,
+	SiTailwindcss,
+	SiTypescript
 } from "react-icons/si";
 
 export const SkillsData = [
@@ -49,6 +45,10 @@ export const SkillsData = [
 		icon: <SiNextdotjs />,
 	},
 	{
+		name: "Vue Js",
+		icon: <RiVuejsLine />, 
+	},
+	{
 		name: "Redux",
 		icon: <SiRedux />,
 	},
@@ -57,20 +57,8 @@ export const SkillsData = [
 		icon: <SiFirebase />,
 	},
 	{
-		name: "JSON",
-		icon: <VscJson />,
-	},
-	{
-		name: "Bootstrap",
-		icon: <FaBootstrap />,
-	},
-	{
 		name: "Tailwind",
 		icon: <SiTailwindcss />,
-	},
-	{
-		name: "Material UI",
-		icon: <SiMaterialui />,
 	},
 	{
 		name: "Sass",
@@ -87,14 +75,6 @@ export const SkillsData = [
 	{
 		name: "Git",
 		icon: <FaGithub />,
-	},
-	{
-		name: "Npm",
-		icon: <FaNpm />,
-	},
-	{
-		name: "Yarn",
-		icon: <FaYarn />,
 	},
 	{
 		name: "Figma",
