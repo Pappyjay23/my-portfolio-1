@@ -1,0 +1,150 @@
+.experience-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.experience-link-group {
+	text-decoration: none;
+}
+
+.experience-container {
+	width: 100%;
+}
+
+.experience-card {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+	transform: translateY(-7px);
+}
+
+.experience-card:hover .experience-title {
+	color: var(--nav-blue);
+}
+
+.top-experience {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.top-experience .right {
+	display: flex;
+}
+
+.mid-experience {
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.experience-title {
+	font-size: 1.3rem;
+	font-weight: 700;
+	word-spacing: 5px;
+	margin-bottom: 0.5rem;
+}
+
+.experience-duration {
+	font-size: 1rem;
+	color: var(--light-grey);
+	margin-bottom: 1rem;
+}
+
+.experience-desc {
+	font-size: 70%;
+}
+
+.experience-icon {
+	font-size: 2rem;
+	color: var(--nav-blue);
+}
+
+.experience-link {
+	color: var(--nav-grey);
+	margin: 0 0.5rem;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.experience-link:hover {
+	color: var(--nav-blue);
+}
+
+.bottom-experience {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-experience small {
+	margin: 0 0.5rem;
+	font-size: 60%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 550px) {
+	.experience-desc {
+		font-size: 60%;
+	}
+
+	.experience-icon {
+		font-size: 1.5rem;
+	}
+
+	.experience-link {
+		font-size: 1.2rem;
+	}
+
+	.experience-title {
+		font-size: 1.2rem;
+	}
+
+	.bottom-experience small {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.experience-card {
+		width: 250px;
+		max-width: 300px;
+		margin: 0 auto;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+	}
+}

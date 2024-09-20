@@ -21,7 +21,7 @@ import {
 
 export const SkillsData = [
 	{
-		name: "HTML",
+		name: "Rest",
 		icon: <FaHtml5 />,
 	},
 	{
@@ -41,10 +41,6 @@ export const SkillsData = [
 		icon: <FaReact />,
 	},
 	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
-	},
-	{
 		name: "Vue Js",
 		icon: <RiVuejsLine />, 
 	},
@@ -57,31 +53,11 @@ export const SkillsData = [
 		icon: <SiFirebase />,
 	},
 	{
-		name: "Tailwind",
-		icon: <SiTailwindcss />,
-	},
-	{
-		name: "Sass",
-		icon: <FaSass />,
-	},
-	{
-		name: "Styled Components",
-		icon: <SiStyledcomponents />,
-	},
-	{
-		name: "Framer Motion",
-		icon: <SiFramer />,
-	},
-	{
 		name: "Git",
 		icon: <FaGithub />,
 	},
 	{
 		name: "Figma",
 		icon: <FaFigma />,
-	},
-	{
-		name: "Photoshop",
-		icon: <SiAdobephotoshop />,
 	},
 ];

@@ -1,10 +1,11 @@
+/*
 export const WorkData = [
 	{
-		title: "Cerebrio",
+		title: "Lead QA Engineer",
 		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
 		tech: ["React.js", "Generative-AI", "APIs", "TailwindCss", 'Firebase', 'Context API'],
 		gitlink: "",
-		site: "//cerebrio-ai.vercel.app/",
+		site: "www.getpowerplay.in",
 	},
 	{
 		title: "The Movie Hub",
@@ -41,4 +42,26 @@ export const WorkData = [
 		gitlink: "//github.com/Pappyjay23/Digitaly",
 		site: "//digitaly.netlify.app/",
 	},
+];
+*/
+
+// ExperienceData.js
+export const ExperienceData = [
+	{
+		role: "Lead QA Engineer",
+		company: "TechCorp",
+		duration: "Jan 2021 - Present",
+		desc: "Led the QA team in ensuring the quality of multiple web applications, focusing on automation and performance testing.",
+		link: "https://techcorp.com",
+		tech: ["Selenium", "Jenkins", "JavaScript", "JIRA"],
+	},
+	{
+		role: "QA Engineer",
+		company: "DevSolutions",
+		duration: "Mar 2018 - Dec 2020",
+		desc: "Developed automated test scripts, collaborated with development teams to resolve issues, and ensured product reliability.",
+		link: "https://devsolutions.com",
+		tech: ["Python", "Postman", "TestRail", "Agile"],
+	},
+	// Add more experience items as needed
 ];

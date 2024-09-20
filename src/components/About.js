@@ -21,9 +21,9 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>Hello! My name is Peace and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try out for my first school project — turns out putting together a simple website taught me a lot about HTML & CSS! </p>
+                        <p>Hello! My name is Aman, and I’m passionate about ensuring the quality of the products people rely on. My journey into quality assurance began in 2016 during my internship as a Java developer. It was there that I realized ensuring the quality of a product is just as critical, if not more so, than building it. I quickly learned how essential thorough testing is to creating reliable software.</p>
                         <br />
-                        <p> Since then, I've had the opportunity to collaborate with some talented professionals, which has sharpened my skills and helped me grow faster. These days, I'm all about building accessible and inclusive digital products that make a difference. I also enjoy dabbling in design and illustration whenever I can.</p>
+                        <p> Since then, I’ve had the chance to work alongside talented teams, honing my skills in testing and quality assurance. These days, I focus on ensuring that products are robust, accessible even in remote areas, and user-friendly. I also enjoy exploring test automation and innovative QA strategies whenever possible.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />
