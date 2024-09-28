@@ -103,6 +103,47 @@
 	font-size: 60%;
 }
 
+/* New styles for tabs */
+.tabs {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+  }
+  
+  .tab {
+	padding: 0.5rem 1rem;
+	margin: 0 0.5rem;
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 1rem;
+	outline: none;
+  }
+  
+  .tab:hover {
+	background-color: var(--nav-blue);
+	color: white;
+  }
+  
+  .tab.active {
+	background-color: var(--nav-blue);
+	color: white;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 750px) {
+	.tabs {
+	  flex-wrap: wrap;
+	}
+  
+	.tab {
+	  margin: 0.5rem;
+	}
+  }
+
 /* Media Queries */
 @media screen and (max-width: 750px) {
 }

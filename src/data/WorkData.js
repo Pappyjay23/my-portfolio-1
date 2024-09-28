@@ -1,8 +1,15 @@
-export const WorkData = [
+export const ReactData = [
 	{
 		title: "Cerebrio",
 		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
-		tech: ["React.js", "Generative-AI", "APIs", "TailwindCss", 'Firebase', 'Context API'],
+		tech: [
+			"React.js",
+			"Generative-AI",
+			"APIs",
+			"TailwindCss",
+			"Firebase",
+			"Context API",
+		],
 		gitlink: "",
 		site: "//cerebrio-ai.vercel.app/",
 	},
@@ -23,7 +30,14 @@ export const WorkData = [
 	{
 		title: "Netflix Clone",
 		desc: "A movie app using the netflix UI with a touch of creativity.",
-		tech: ["React.js", "Firebase", "TailwindCss", "APIs", "Axios", 'Context API'],
+		tech: [
+			"React.js",
+			"Firebase",
+			"TailwindCss",
+			"APIs",
+			"Axios",
+			"Context API",
+		],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
 		site: "//netflix-vp.vercel.app",
 	},
@@ -40,5 +54,24 @@ export const WorkData = [
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
 		gitlink: "//github.com/Pappyjay23/Digitaly",
 		site: "//digitaly.netlify.app/",
+	},
+];
+
+export const VueData = [
+	{
+		title: "DevHire",
+		desc: "An innovative platform that connects tech talents with their potential employers.",
+		tech: [
+			"Vue.js",
+			"Pinia",
+			"APIs",
+			"TailwindCss",
+			"Firebase",
+			"Vue-Router",
+			"Yup",
+			"Axios",
+		],
+		gitlink: "//github.com/Pappyjay23/DevHire",
+		site: "//dev-hire-vp.vercel.app/",
 	},
 ];
