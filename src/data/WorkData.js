@@ -74,4 +74,16 @@ export const VueData = [
 		gitlink: "//github.com/Pappyjay23/DevHire",
 		site: "//dev-hire-vp.vercel.app/",
 	},
+	{
+		title: "Mini Unsplash",
+		desc: "A platform that allows you to enjoy the beauty of high-quality imagery right at your fingertips",
+		tech: [
+			"Vue.js",
+			"APIs",
+			"Sass",
+			"Axios",
+		],
+		gitlink: "",
+		site: "//mini-unsplash-clone.vercel.app/",
+	},
 ];
