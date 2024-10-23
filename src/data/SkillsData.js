@@ -18,6 +18,7 @@ import {
 	SiTailwindcss,
 	SiTypescript
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 export const SkillsData = [
 	{
@@ -47,6 +48,10 @@ export const SkillsData = [
 	{
 		name: "Vue Js",
 		icon: <RiVuejsLine />, 
+	},
+	{
+		name: "React Native",
+		icon: <TbBrandReactNative />,
 	},
 	{
 		name: "Redux",
