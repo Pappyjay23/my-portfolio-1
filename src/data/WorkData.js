@@ -21,11 +21,11 @@ export const ReactData = [
 		site: "//the-movie-hub-v1.netlify.app",
 	},
 	{
-		title: "Todo App",
-		desc: "A todo list web app",
-		tech: ["React.js", "Css", "PWAs"],
-		gitlink: "//www.github.com/Pappyjay23/todo-list",
-		site: "//todo-list-v0.netlify.app",
+		title: "Titan",
+		desc: "A web app to customize your 3D car model",
+		tech: ["React.js", "ThreeJs", "TailwindCss"],
+		gitlink: "//github.com/Pappyjay23/Titan",
+		site: "//titan-motors.vercel.app/",
 	},
 	{
 		title: "Netflix Clone",
@@ -42,11 +42,11 @@ export const ReactData = [
 		site: "//netflix-vp.vercel.app",
 	},
 	{
-		title: "Budget App",
-		desc: "A budget web app",
-		tech: ["React.js", "Css"],
-		gitlink: "//www.github.com/Pappyjay23/budget-app",
-		site: "//budget-app-react-0.netlify.app",
+		title: "Todo App",
+		desc: "A todo list web app",
+		tech: ["React.js", "Css", "PWAs"],
+		gitlink: "//www.github.com/Pappyjay23/todo-list",
+		site: "//todo-list-v0.netlify.app",
 	},
 	{
 		title: "Digitaly",
@@ -77,12 +77,7 @@ export const VueData = [
 	{
 		title: "Mini Unsplash",
 		desc: "A platform that allows you to enjoy the beauty of high-quality imagery right at your fingertips",
-		tech: [
-			"Vue.js",
-			"APIs",
-			"Sass",
-			"Axios",
-		],
+		tech: ["Vue.js", "APIs", "Sass", "Axios"],
 		gitlink: "",
 		site: "//mini-unsplash-clone.vercel.app/",
 	},
