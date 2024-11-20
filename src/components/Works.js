@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Works.css";
 import { motion } from "framer-motion";
-import { ReactData, VueData } from "../data/WorkData";
+import { ReactData, ReactNativeData, VueData } from "../data/WorkData";
 import WorkCard from "./WorkCard";
 
 const Works = () => {
@@ -17,7 +17,7 @@ const Works = () => {
 	const tabData = [
 		{ id: "react", label: "React", data: ReactData },
 		{ id: "vue", label: "Vue", data: VueData },
-		// { id: "react-native", label: "React Native", data: ReactNativeData },
+		{ id: "react-native", label: "React Native", data: ReactNativeData },
 	];
 
 	return (
@@ -52,7 +52,7 @@ const Works = () => {
 							activeTab === tab.id && (
 								<React.Fragment key={tab.id}>
 									{tab.data.map((w, index) => (
-										<WorkCard w={w} key={index} />
+										<WorkCard w={w} tabId={tab.id} key={index} />
 									))}
 								</React.Fragment>
 							)
