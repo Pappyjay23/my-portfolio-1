@@ -25,6 +25,14 @@
 	background: var(--nav-blue-shade);
 }
 
+.Toastify__container {
+    z-index: 9999 !important;
+}
+
+.Toastify__toast-container {
+    z-index: 9999 !important;
+}
+
 body {
 	overflow-x: hidden;
   background: var(--section-bgd);

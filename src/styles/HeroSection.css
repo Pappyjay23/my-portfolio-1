@@ -109,7 +109,7 @@
 	border: 3px solid var(--nav-blue);
 	border-radius: 50%;
 	transition: all 0.4s ease;
-	z-index: 99999999;
+	z-index: 50;
 	background-color: var(--nav-blue);
 }
 
