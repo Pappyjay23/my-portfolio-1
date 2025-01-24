@@ -75,6 +75,13 @@ export const VueData = [
 		site: "//dev-hire-vp.vercel.app/",
 	},
 	{
+		title: "ArtSphere",
+		desc: "A platform to showcase beautiful image collections.",
+		tech: ["Vue.js", "APIs", "TailwindCss", "Firebase", "Vue-Router"],
+		gitlink: "//github.com/Pappyjay23/ArtSphere",
+		site: "//art-sphere-gallery.vercel.app/",
+	},
+	{
 		title: "Mini Unsplash",
 		desc: "A platform that allows you to enjoy the beauty of high-quality imagery right at your fingertips",
 		tech: ["Vue.js", "APIs", "Sass", "Axios"],
