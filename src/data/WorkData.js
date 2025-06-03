@@ -1,18 +1,18 @@
 export const ReactData = [
-	{
-		title: "Cerebrio",
-		desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
-		tech: [
-			"React.js",
-			"Generative-AI",
-			"APIs",
-			"TailwindCss",
-			"Firebase",
-			"Context API",
-		],
-		gitlink: "",
-		site: "//cerebrio-ai.vercel.app/",
-	},
+	// {
+	// 	title: "Cerebrio",
+	// 	desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
+	// 	tech: [
+	// 		"React.js",
+	// 		"Generative-AI",
+	// 		"APIs",
+	// 		"TailwindCss",
+	// 		"Firebase",
+	// 		"Context API",
+	// 	],
+	// 	gitlink: "",
+	// 	site: "//cerebrio-ai.vercel.app/",
+	// },
 	{
 		title: "The Movie Hub",
 		desc: "A movie app for discovering new movies",
