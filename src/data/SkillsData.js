@@ -5,7 +5,7 @@ import {
 	FaGithub,
 	FaHtml5,
 	FaReact,
-	FaSass
+	FaSass,
 } from "react-icons/fa";
 import { RiVuejsLine } from "react-icons/ri";
 import {
@@ -16,9 +16,10 @@ import {
 	SiRedux,
 	SiStyledcomponents,
 	SiTailwindcss,
-	SiTypescript
+	SiTypescript,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
+import Gsap from "../vectors/gsap";
 
 export const SkillsData = [
 	{
@@ -47,7 +48,7 @@ export const SkillsData = [
 	},
 	{
 		name: "Vue Js",
-		icon: <RiVuejsLine />, 
+		icon: <RiVuejsLine />,
 	},
 	{
 		name: "React Native",
@@ -76,6 +77,10 @@ export const SkillsData = [
 	{
 		name: "Framer Motion",
 		icon: <SiFramer />,
+	},
+	{
+		name: "GSAP",
+		icon: <Gsap />,
 	},
 	{
 		name: "Git",
