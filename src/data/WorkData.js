@@ -14,8 +14,15 @@ export const ReactData = [
 	// 	site: "//cerebrio-ai.vercel.app/",
 	// },
 	{
+		title: "Techi-Dashboard",
+		desc: "Jira-style task manager with drag-and-drop tasks and Context API state management.",
+		tech: ["React.js", "Dnd-Kit", "TailwindCss", "Context API"],
+		gitlink: "//github.com/Pappyjay23/Techinnover",
+		site: "//techinnover-vp.vercel.app",
+	},
+	{
 		title: "Netflix Clone",
-		desc: "A movie app using the netflix UI with a touch of creativity.",
+		desc: "Custom Netflix-style UI with API integration and responsive layouts.",
 		tech: [
 			"React.js",
 			"Firebase",
@@ -29,37 +36,39 @@ export const ReactData = [
 		site: "//netflix-vp.vercel.app",
 	},
 	{
-		title: "Creamy Scoop",
-		desc: "A simple app to explore ice cream flavors and their details",
-		tech: [
-			"Next.js",
-			"GSAP",
-			"TailwindCss",
-			"Lenis",
-		],
-		gitlink: "//github.com/Pappyjay23/creamy-scoop",
-		site: "//creamy-scoop-vp.vercel.app",
-	},
-	{
 		title: "Titan",
-		desc: "A web app to customize your 3D car model",
+		desc: "3D car customization app using React + Three.js for interactive modeling.",
 		tech: ["React.js", "ThreeJs", "TailwindCss"],
 		gitlink: "//github.com/Pappyjay23/Titan",
 		site: "//titan-motors.vercel.app/",
 	},
 	{
-		title: "The Movie Hub",
-		desc: "A movie app for discovering new movies",
-		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
-		gitlink: "//github.com/Pappyjay23/the-movie-hub",
-		site: "//the-movie-hub-v1.netlify.app",
-	},
-	{
 		title: "Digitaly",
-		desc: "A website for a digital marketing agency",
+		desc: "Digital agency site with smooth UI animations using Framer Motion.",
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
 		gitlink: "//github.com/Pappyjay23/Digitaly",
 		site: "//digitaly.netlify.app/",
+	},
+	{
+		title: "Creamy Scoop",
+		desc: "Ice cream explorer with creative GSAP animations and smooth scrolling.",
+		tech: ["Next.js", "GSAP", "TailwindCss", "Lenis"],
+		gitlink: "//github.com/Pappyjay23/creamy-scoop",
+		site: "//creamy-scoop-vp.vercel.app",
+	},
+	{
+		title: "Forcythe Clone",
+		desc: "UI clone project showcasing animations and transitions for a smooth UX.",
+		tech: ["Next.js", "TailwindCss", "CSS Animations"],
+		gitlink: "//github.com/Pappyjay23/forcythe",
+		site: "//forcythe-pearl.vercel.app",
+	},
+	{
+		title: "The Movie Hub",
+		desc: "Movie discovery app with API integration and Material UI components.",
+		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
+		gitlink: "//github.com/Pappyjay23/the-movie-hub",
+		site: "//the-movie-hub-v1.netlify.app",
 	},
 ];
 
