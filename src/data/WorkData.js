@@ -14,6 +14,13 @@ export const ReactData = [
 	// 	site: "//cerebrio-ai.vercel.app/",
 	// },
 	{
+		title: "Halo",
+		desc: "Premium landing experience showcasing immersive GSAP animations, smooth scrolling, and 3D visuals.",
+		tech: ["Next.js", "Three.js", "GSAP", "TailwindCss"],
+		gitlink: "//github.com/Pappyjay23/Halo",
+		site: "//halo-vp.vercel.app",
+	},
+	{
 		title: "Techi-Dashboard",
 		desc: "Jira-style task manager with drag-and-drop tasks and Context API state management.",
 		tech: ["React.js", "Dnd-Kit", "TailwindCss", "Context API"],
@@ -36,13 +43,6 @@ export const ReactData = [
 		site: "//netflix-vp.vercel.app",
 	},
 	{
-		title: "Titan",
-		desc: "3D car customization app using React + Three.js for interactive modeling.",
-		tech: ["React.js", "ThreeJs", "TailwindCss"],
-		gitlink: "//github.com/Pappyjay23/Titan",
-		site: "//titan-motors.vercel.app/",
-	},
-	{
 		title: "Digitaly",
 		desc: "Digital agency site with smooth UI animations using Framer Motion.",
 		tech: ["React.js", "TailwindCss", "Framer Motion"],
@@ -50,11 +50,11 @@ export const ReactData = [
 		site: "//digitaly.netlify.app/",
 	},
 	{
-		title: "Creamy Scoop",
-		desc: "Ice cream explorer with creative GSAP animations and smooth scrolling.",
-		tech: ["Next.js", "GSAP", "TailwindCss", "Lenis"],
-		gitlink: "//github.com/Pappyjay23/creamy-scoop",
-		site: "//creamy-scoop-vp.vercel.app",
+		title: "Titan",
+		desc: "3D car customization app using React + Three.js for interactive modeling.",
+		tech: ["React.js", "Three.js", "TailwindCss"],
+		gitlink: "//github.com/Pappyjay23/Titan",
+		site: "//titan-motors.vercel.app/",
 	},
 	{
 		title: "Forcythe Clone",
@@ -62,13 +62,6 @@ export const ReactData = [
 		tech: ["Next.js", "TailwindCss", "CSS Animations"],
 		gitlink: "//github.com/Pappyjay23/forcythe",
 		site: "//forcythe-pearl.vercel.app",
-	},
-	{
-		title: "The Movie Hub",
-		desc: "Movie discovery app with API integration and Material UI components.",
-		tech: ["React.js", "Axios", "APIs", "TailwindCss", "Material UI"],
-		gitlink: "//github.com/Pappyjay23/the-movie-hub",
-		site: "//the-movie-hub-v1.netlify.app",
 	},
 ];
 
