@@ -1,97 +1,46 @@
 import { DiJavascript1 } from "react-icons/di";
 import {
-	FaCss3Alt,
 	FaFigma,
-	FaGithub,
-	FaHtml5,
-	FaReact,
-	FaSass,
+	FaReact
 } from "react-icons/fa";
 import { RiVuejsLine } from "react-icons/ri";
 import {
-	SiAdobephotoshop,
 	SiFirebase,
 	SiFramer,
+	SiJest,
 	SiNextdotjs,
+	SiReactquery,
 	SiRedux,
 	SiStyledcomponents,
+	SiSupabase,
 	SiTailwindcss,
-	SiTypescript,
+	SiTypescript
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import Gsap from "../vectors/gsap";
 
 export const SkillsData = [
-	{
-		name: "HTML",
-		icon: <FaHtml5 />,
-	},
-	{
-		name: "CSS",
-		icon: <FaCss3Alt />,
-	},
-	{
-		name: "Javascript",
-		icon: <DiJavascript1 />,
-	},
-	{
-		name: "TypeScript",
-		icon: <SiTypescript />,
-	},
-	{
-		name: "React Js",
-		icon: <FaReact />,
-	},
-	{
-		name: "Next Js",
-		icon: <SiNextdotjs />,
-	},
-	{
-		name: "Vue Js",
-		icon: <RiVuejsLine />,
-	},
-	{
-		name: "React Native",
-		icon: <TbBrandReactNative />,
-	},
-	{
-		name: "Redux",
-		icon: <SiRedux />,
-	},
-	{
-		name: "Firebase",
-		icon: <SiFirebase />,
-	},
-	{
-		name: "Tailwind",
-		icon: <SiTailwindcss />,
-	},
-	{
-		name: "Sass",
-		icon: <FaSass />,
-	},
-	{
-		name: "Styled Components",
-		icon: <SiStyledcomponents />,
-	},
-	{
-		name: "Framer Motion",
-		icon: <SiFramer />,
-	},
-	{
-		name: "GSAP",
-		icon: <Gsap />,
-	},
-	{
-		name: "Git",
-		icon: <FaGithub />,
-	},
-	{
-		name: "Figma",
-		icon: <FaFigma />,
-	},
-	{
-		name: "Photoshop",
-		icon: <SiAdobephotoshop />,
-	},
+    // Core Tech (The "must-haves")
+    { name: "Javascript", icon: <DiJavascript1 /> },
+    { name: "TypeScript", icon: <SiTypescript /> },
+    { name: "React Js", icon: <FaReact /> },
+    { name: "Next Js", icon: <SiNextdotjs /> },
+    { name: "Vue Js", icon: <RiVuejsLine /> },
+    { name: "React Native", icon: <TbBrandReactNative /> },
+
+    // Logic & Data
+    { name: "Redux", icon: <SiRedux /> },
+    { name: "React Query", icon: <SiReactquery /> },
+    { name: "Firebase", icon: <SiFirebase /> },
+    { name: "Supabase", icon: <SiSupabase /> },
+
+    // Visuals & Motion
+    { name: "Tailwind", icon: <SiTailwindcss /> },
+    { name: "Styled Components", icon: <SiStyledcomponents /> },
+    { name: "Framer Motion", icon: <SiFramer /> },
+    { name: "GSAP", icon: <Gsap /> },
+
+    // Design & Engineering Quality
+    { name: "Jest", icon: <SiJest /> },
+    { name: "Figma", icon: <FaFigma /> },
 ];

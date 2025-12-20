@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../styles/HeroSection.css";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { BiDownload } from "react-icons/bi";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { animateScroll as scroll } from "react-scroll";
 import { motion } from "framer-motion";
 import CV from "../data/Peace Jinadu-Paul Resume.pdf";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 const HeroSection = ({ nav, handleNav }) => {
 	const scrollToTop = () => {
@@ -104,8 +104,8 @@ const HeroSection = ({ nav, handleNav }) => {
 				variants={contactVariants}
 				initial='hidden'
 				whileInView='visible'>
-				<a href={CV} download='Peace Jinadu-Paul CV' className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
+				<a href={CV} target='_blank' rel='noreferrer' className='hero-contact'>
+					View My Resume <HiOutlineDocumentText className='cv-icon' />
 				</a>
 			</motion.span>
 		</div>
