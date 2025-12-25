@@ -14,6 +14,21 @@ export const ReactData = [
 	// 	site: "//cerebrio-ai.vercel.app/",
 	// },
 	{
+		title: "OrbitDesk",
+		desc: "A global work command center and PWA for managing cross-border workflows, featuring essential tools.",
+		tech: [
+			"React.js",
+			"Supabase",
+			"PWA",
+			"Context API",
+			"Axios",
+			"TailwindCss",
+			"APIs",
+		],
+		gitlink: "",
+		site: "//orbit-desk-vp.vercel.app",
+	},
+	{
 		title: "Halo",
 		desc: "Premium landing experience showcasing immersive GSAP animations, smooth scrolling, and 3D visuals.",
 		tech: ["Next.js", "Three.js", "GSAP", "TailwindCss"],
@@ -55,13 +70,6 @@ export const ReactData = [
 		tech: ["React.js", "Three.js", "TailwindCss"],
 		gitlink: "//github.com/Pappyjay23/Titan",
 		site: "//titan-motors.vercel.app/",
-	},
-	{
-		title: "Forcythe Clone",
-		desc: "UI clone project showcasing animations and transitions for a smooth UX.",
-		tech: ["Next.js", "TailwindCss", "CSS Animations"],
-		gitlink: "//github.com/Pappyjay23/forcythe",
-		site: "//forcythe-pearl.vercel.app",
 	},
 ];
 

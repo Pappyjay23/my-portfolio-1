@@ -93,9 +93,7 @@ const Contact = () => {
 							whileInView={verticalLeft}>
 							<div className='contact-heading'>
 								<p>
-									I’m interested in freelance opportunities – especially
-									ambitious or large projects. However, if you have other
-									request or question, don’t hesitate to use the form
+									Looking for a seasoned Front-End Developer to lead your next big project? I specialize in building high-performance web experiences. Reach out for collaborations, consulting, or just to say hello.
 								</p>
 							</div>
 							<div className='contact-hello'>

@@ -100,7 +100,7 @@ const Navbar = ({ nav, handleNav }) => {
 								Skills
 							</li>
 						</Link>
-						<Link
+						{/* <Link
 							activeClass='active'
 							spy={true}
 							smooth={true}
@@ -112,7 +112,7 @@ const Navbar = ({ nav, handleNav }) => {
 							<li className='mid-link' onClick={handleNav}>
 								Services
 							</li>
-						</Link>
+						</Link> */}
 						<Link
 							activeClass='active'
 							spy={true}
@@ -142,7 +142,7 @@ const Navbar = ({ nav, handleNav }) => {
 					</ul>
 					<div className='copy'>
 						<small className='copyright'>
-							© Copyright ©2022 <br /> All rights reserved |
+							© Copyright ©2022 | All rights reserved
 						</small>
 					</div>
 				</motion.div>
