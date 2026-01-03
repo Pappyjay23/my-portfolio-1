@@ -25,7 +25,7 @@ export const ReactData = [
 			"TailwindCss",
 			"APIs",
 		],
-		gitlink: "",
+		gitlink: "//github.com/Pappyjay23/OrbitDesk",
 		site: "//orbit-desk-vp.vercel.app",
 	},
 	{
