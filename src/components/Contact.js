@@ -93,7 +93,7 @@ const Contact = () => {
 							whileInView={verticalLeft}>
 							<div className='contact-heading'>
 								<p>
-									Looking for a seasoned Front-End Developer to lead your next big project? I specialize in building high-performance web experiences. Reach out for collaborations, consulting, or just to say hello.
+									Looking for a seasoned Front-End Engineer to lead your next big project? I specialize in building high-performance web experiences. Reach out for collaborations, consulting, or just to say hello.
 								</p>
 							</div>
 							<div className='contact-hello'>

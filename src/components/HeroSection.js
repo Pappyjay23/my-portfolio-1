@@ -97,7 +97,7 @@ const HeroSection = ({ nav, handleNav }) => {
 					<span>Peace</span> <span>Jinadu-Paul.</span>
 				</p>
 				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Front End Developer.</span>
+					I'm a <span className='hero-desc-sub'>Front End Engineer.</span>
 				</p>
 			</motion.div>
 			<motion.span

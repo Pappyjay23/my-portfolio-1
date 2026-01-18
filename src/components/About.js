@@ -21,7 +21,7 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>I’m Peace, a Frontend Developer focused on building scalable, user-centered web applications. </p>
+                        <p>I’m Peace, a Frontend Engineer focused on building scalable, user-centered web applications. </p>
                         <br />
                         <p> My work involves building and maintaining production web applications, collaborating closely with cross-functional teams, and turning complex requirements into intuitive user experiences. I focus on performance, accessibility, and maintainability, ensuring products scale as they grow.</p>
                         <br />

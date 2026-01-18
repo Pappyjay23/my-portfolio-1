@@ -1,18 +1,4 @@
 export const ReactData = [
-	// {
-	// 	title: "Cerebrio",
-	// 	desc: "An innovative AI chat app which provides an intelligent and interactive chat experience",
-	// 	tech: [
-	// 		"React.js",
-	// 		"Generative-AI",
-	// 		"APIs",
-	// 		"TailwindCss",
-	// 		"Firebase",
-	// 		"Context API",
-	// 	],
-	// 	gitlink: "",
-	// 	site: "//cerebrio-ai.vercel.app/",
-	// },
 	{
 		title: "OrbitDesk",
 		desc: "A global work command center and PWA for managing cross-border workflows, featuring essential tools.",
@@ -30,17 +16,17 @@ export const ReactData = [
 	},
 	{
 		title: "Halo",
-		desc: "Premium landing experience showcasing immersive GSAP animations, smooth scrolling, and 3D visuals.",
+		desc: "Premium headphone brand landing experience showcasing immersive GSAP animations, smooth scrolling, and 3D visuals.",
 		tech: ["Next.js", "Three.js", "GSAP", "TailwindCss"],
 		gitlink: "//github.com/Pappyjay23/Halo",
 		site: "//halo-vp.vercel.app",
 	},
 	{
-		title: "Techi-Dashboard",
-		desc: "Jira-style task manager with drag-and-drop tasks and Context API state management.",
+		title: "FlowBoard",
+		desc: "A Jira-style task manager with drag-and-drop functionality and a dynamic board layout.",
 		tech: ["React.js", "Dnd-Kit", "TailwindCss", "Context API"],
-		gitlink: "//github.com/Pappyjay23/Techinnover",
-		site: "//techinnover-vp.vercel.app",
+		gitlink: "//github.com/Pappyjay23/FlowBoard",
+		site: "//flowboard-vp.vercel.app",
 	},
 	{
 		title: "Netflix Clone",
@@ -56,20 +42,6 @@ export const ReactData = [
 		],
 		gitlink: "//github.com/Pappyjay23/netflix-clone",
 		site: "//netflix-vp.vercel.app",
-	},
-	{
-		title: "Digitaly",
-		desc: "Digital agency site with smooth UI animations using Framer Motion.",
-		tech: ["React.js", "TailwindCss", "Framer Motion"],
-		gitlink: "//github.com/Pappyjay23/Digitaly",
-		site: "//digitaly.netlify.app/",
-	},
-	{
-		title: "Titan",
-		desc: "3D car customization app using React + Three.js for interactive modeling.",
-		tech: ["React.js", "Three.js", "TailwindCss"],
-		gitlink: "//github.com/Pappyjay23/Titan",
-		site: "//titan-motors.vercel.app/",
 	},
 ];
 
