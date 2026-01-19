@@ -15,6 +15,22 @@ export const ReactData = [
 		site: "//orbit-desk-vp.vercel.app",
 	},
 	{
+		title: "Cinera",
+		desc: "A premium, motion-driven movie discovery PWA.",
+		tech: [
+			"React.js",
+			"Supabase",
+			"GSAP",
+			"TanStack Query",
+			"Tailwind CSS",
+			"PWA",
+			"Axios",
+			"APIs",
+		],
+		gitlink: "//github.com/Pappyjay23/Cinera",
+		site: "//cinera-vp.vercel.app",
+	},
+	{
 		title: "Halo",
 		desc: "Premium headphone brand landing experience showcasing immersive GSAP animations, smooth scrolling, and 3D visuals.",
 		tech: ["Next.js", "Three.js", "GSAP", "TailwindCss"],
@@ -27,21 +43,6 @@ export const ReactData = [
 		tech: ["React.js", "Dnd-Kit", "TailwindCss", "Context API"],
 		gitlink: "//github.com/Pappyjay23/FlowBoard",
 		site: "//flowboard-vp.vercel.app",
-	},
-	{
-		title: "Netflix Clone",
-		desc: "Custom Netflix-style UI with API integration and responsive layouts.",
-		tech: [
-			"React.js",
-			"Firebase",
-			"TailwindCss",
-			"APIs",
-			"Axios",
-			"Context API",
-			"PWAs",
-		],
-		gitlink: "//github.com/Pappyjay23/netflix-clone",
-		site: "//netflix-vp.vercel.app",
 	},
 ];
 
